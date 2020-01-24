@@ -1,0 +1,11 @@
+{
+  "name": "wcag-audit",
+  "version": "1.0.0",
+  "description": "Crawls a website and creates an audit report for their WCAG compliance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
