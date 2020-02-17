@@ -1,6 +1,5 @@
 const fs = require('fs');
 const slugify = require('slugify');
-const MongoClient = require('mongodb').MongoClient;
 
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
