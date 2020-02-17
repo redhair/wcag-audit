@@ -4,11 +4,16 @@
   "description": "Crawls a website and creates an audit report for their WCAG compliance.",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lighthouse": "^5.6.0"
+    "chrome-launcher": "^0.12.0",
+    "crawler": "^1.2.1",
+    "lighthouse": "^5.6.0",
+    "mongodb": "^3.5.2",
+    "slugify": "^1.3.6"
   }
 }
